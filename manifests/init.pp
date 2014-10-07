@@ -1,8 +1,8 @@
 class svn {
   yumrepo { 'WandiscoSVN':
     baseurl  => 'http://opensource.wandisco.com/centos/6/svn-1.8/RPMS/$basearch/',
-    enabled  => true,
-    gpgcheck => false,
+    enabled  => 1,
+    gpgcheck => 0,
   }
 
   package { 'subversion':
