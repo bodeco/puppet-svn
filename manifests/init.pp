@@ -1,5 +1,6 @@
 class svn {
-  package { 'svn':
+  package { 'subversion':
+    alias  => 'svn',
     ensure => present,
   }
 }
