@@ -16,7 +16,7 @@ class svn {
     }
     'Windows': {
       package { 'svn':
-        ensure   => latest,
+        ensure   => present,
         provider => chocolatey,
       }
     }

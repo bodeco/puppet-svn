@@ -1,3 +1,5 @@
 fixtures:
+  repositories:
+    helper: 'https://github.com/bodeco/bodeco_module_helper.git'
   symlinks:
     svn: source_dir
